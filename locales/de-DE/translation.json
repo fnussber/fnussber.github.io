@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "cv": "Curriculum",
+    "projects": "Projekte"
+  },
+  "app": {
+    "test": "Sprache ist Deutsch",
+    "name": "Holodrio Test Deutsch"
+  },
+  "me": {
+    "p0": "Short English text section.",
+    "p1": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+    "p2": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+    "p3": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+  },
+  "cv": {
+    "person":   "Person",
+    "details":  "Details",
+    "employer": "Arbeitgeber",
+    "position": "Position",
+    "experience": "Erfahrung",
+    "education": "Ausbildung",
+    "knowhow": "Know-How",
+    "languages": "Sprachen",
+    "technologies": "Technologien",
+    "methods": "Methodik",
+    "roles": "Rollen",
+    "databases": "Datenbanken",
+    "architect": "Architekt",
+    "maidofallwork":  "Mädchen für Alles"
+
+  },
+  "prj": {
+    "projects": "Projekte",
+    "intro":    "Eine Auswahl interessanter beruflicher Projekte, in die ich involviert war, und einige private Projekte, die auf GitHub verfügbar sind ",
+    "employer":   "Arbeitgeber",
+    "customer":   "Kunde",
+    "role":   "Rolle",
+    "year":   "Jahr",
+    "years":  "Jahre",
+    "technologies": "Technologien",
+    "description": "Beschreibung",
+    "nets": {
+      "desc0":  "A team of 25 developers and UI specialists were tasked to develop a modern planning system for one of the densest railway networks in the world from scratch. I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also actively involved in the development and architectural decisions. Main focus of the Business Layer Team was to provide services for the Presentation Layer Team to be consumed by their Eclipse RCP based client that allowed access to services like",
+      "desc1":  "A group of end users was involved in the agile development process in order to guarantee that the requirements were met and usability issues could be adressed and solved quickly."
+    },
+    "qv": {
+      "p0": [
+        "Das Gemini Observatorium verfügt über zwei 8.1-Meter Teleskope in Hawai'i und Chile, die ",
+        "zu den grössten Teleskopen für Astronomy in der Welt gehören. Observation time is in ",
+        "high demand and great effort is put into optimizing the utilization of its resources."]
+    }
+  }
+}
