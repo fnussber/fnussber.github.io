@@ -4,15 +4,36 @@
     "cv": "Curriculum",
     "projects": "Projects"
   },
-  "app": {
-    "test": "Language is English",
-    "name": "Holodrio EN"
-  },
   "me": {
-    "p0": "Short English text section.",
-    "p1": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
-    "p2": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
-    "p3": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+    "intro": {
+      "p0Html": [
+        "I am a Swiss citizen currently working in the US for ",
+        "<a href='http://www.gemini.edu'>Gemini Observatory</a>, ",
+        "an international astronomical observatory on top of <a href='https://en.wikipedia.org/wiki/Mauna_Kea'>Mauna Kea</a> on Hawai'i."
+      ]
+    },
+    "multi": {
+      "title": "Multifunctional",
+      "p0": [
+        "I am a pragmatic generalist who loves to interact with other developers, customers and users. ",
+        "I think agile development processes are almost always a good choice and I have made good experiences ",
+        "with Scrum in the past."
+      ],
+      "p1": [
+        "I have been working in different roles in several industries in projects of varying ",
+        "complexity and organisational setups: from one-man to 'multi-team' to ",
+        "internationally distributed project team."
+      ]
+    },
+    "notwork": {
+      "title": "When Not Working",
+      "p0Html": [
+        "In my spare time I can be found, ",
+        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS'>motorbiking</a>, hiking, running, cycling, trying to swim (not my best discipline), ",
+        "do all of the previous three in <a href='http://www.lavamantriathlon.com/waikoloa/'>short succession</a>, ",
+        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/'>scuba diving</a>",
+        "vegging at home, reading a <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four'>good book</a>, eating in a restaurant or walking my dog."]
+    }
   },
   "cv": {
     "person":   "Person",
@@ -40,15 +61,104 @@
     "years":  "Years",
     "technologies": "Technologies",
     "description": "Description",
-    "nets": {
-      "desc0":  "A team of 25 developers and UI specialists were tasked to develop a modern planning system for one of the densest railway networks in the world from scratch. I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also actively involved in the development and architectural decisions. Main focus of the Business Layer Team was to provide services for the Presentation Layer Team to be consumed by their Eclipse RCP based client that allowed access to services like",
-      "desc1":  "A group of end users was involved in the agile development process in order to guarantee that the requirements were met and usability issues could be adressed and solved quickly."
-    },
     "qv": {
+      "title": "Astronomical Observations Queue Visualization",
       "p0": [
         "The Gemini Observatory's two 8.1-meter telescopes located in Hawai'i and Chile are amongst ",
         "the most powerful telescopes for research in astronomy in the world. Observation time is in ",
-        "high demand and great effort is put into optimizing the utilization of its resources."]
+        "high demand and great effort is put into optimizing the utilization of its resources."],
+      "p1": [
+        "The optimal execution time for observations that get selected for execution during a semester ",
+        "depends on many parameters like the visibility and altitude of the target in the sky, weather ",
+        "conditions, additional time constraints, moon phase, availability of instruments and specific ",
+        "instrument configurations and many more."],
+      "p2": [
+        "Gemini's Queue Visualization Tool (QV) supports the planning team in the long- and mid-term ",
+        "scheduling of observations by providing a wide variety of filter options to select subsets of ",
+        "all observations in the observations database and then sort them by some parameters (e.g. ",
+        "remaining hours) and visualize the visibility and altitude above horizon."],
+      "p3": [
+        "In addition to filter, group and sorting functionality QV also allows to turn on or off a number ",
+        "of constraints like instrument availability or minimum elevation and sky brightness (given by the ",
+        "moon phase) to allow for a 'what-if' analysis."],
+      "p4": [
+        "While originally planned for some specific use cases, the final application turned out to be flexible ",
+        "enough to cover a wide variety of useful 'query' operations on the database and is now used in ",
+        "contexts outside of mid- and long-term queue planning, too."]
+    },
+    "ltts": {
+      "title": "Clearance Support for High Powered Laser Usage in Astronomy",
+      "p0Html": [
+        "Astronomical observatories often use high powered lasers to produce artifical 'guide stars' (i.e. ",
+        "points of light) on high atmospheric layers. These are used as a reference in Adaptive Optics systems ",
+        "in order to correct for atmospheric turbulences. Although highly unlikely, the use of such lasers could ",
+        "interfere with the operation of satellites in space and has therefore to be cleared ",
+        "by the US military."],
+      "p1": [
+        "Aim of this project was to replace a labor intense manual process with an automated one and also to ",
+        "improve the support for the telsecope operators during the night. The new process automatically collects ",
+        "for each night of when the laser is used potential observation targets for that night from the ",
+        "observatory's observations database depending on their visibility and other criterias and compiles ",
+        "a target list which is uploaded to a dedicated web site run by the military. Once the target list has ",
+        "been processed the system is notified by email and will then download the clearance list which defines ",
+        "for each target of that night at which times down to the second it is allowed to propagate the laser."],
+      "p2": [
+        "To make sure these clearance windows are adhered to the application is constantly monitoring the ",
+        "current telescope pointing position and comparing it with those windows. If it detects that the laser ",
+        "is used outside a window that has been cleared by the military the laser is automatically shuttered."],
+      "p3": [
+        "A web frontend allows to see the current state of he system and gives visual and audible clues when ",
+        "during long during observations a closure window is approaching and the laser needs to be shuttered."]
+    },
+    "nets": {
+      "title": "Network-wide Track Management System for Swiss Federal Railways",
+      "customerHtml": "<a href='http://www.sbb.ch/en/group.html'>Swiss Federal Railways</a>",
+      "role": "Team Lead Business Layer, Developer",
+      "p0Html": [
+        "The Swiss Federal Railways (SBB) operate one of the densest railway networks in the world. In order ",
+        "to replace an existing planning software with a more modern solution with improved functionality a team ",
+        "of 25 developers and UI specialists from SBB and external companies was tasked during two years with a ",
+        "complete rewrite based on an <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform'>Eclipse RCP</a> ",
+        "client and a server based on <a href='http://www.ibm.com/software/websphere'>WebSphere</a> and an",
+         "<a href='https://www.oracle.com/database/index.html'>Oracle database</a>."],
+      "p1": [
+        "I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also ",
+        "actively involved in the development, planning decisions and some architectural decisions. Main focus of ",
+        "the Business Layer Team was to provide services like for example detailed information about rolling stock ",
+        "and train compositions or railway network information including detailed track information down to traffic ",
+        "lights and signalisation. Other aspects covered by the business layer are the daily train schedules, ",
+        "journey time calculations based on actual train parameters like engines and weight and checks which can ",
+        "be used to validate if planned schedules are feasible."],
+      "p2": [
+        "After an earlier attempt to replace the existing software had failed because of the complexity of this ",
+        "project, SBB wanted to try an agile development process. Great care was also taken to involve a group ",
+        "of end users in the development process. This continuous user feedback on the current state of the ",
+        "software proved invaluable to verify the requirements and to detect and address usability and performance ",
+        "issues at an early stage."],
+      "p3Html": [
+        "For more information also see ",
+        "<a href='http://www.netcetera.com/en/dms/documents/case-studies-and-factsheets/brochure-nets-en/brochure-nets-en-20110418-low-resolution.pdf'>a product prospectus</a> ",
+        "on the web page of another external company that was involved in the project."]
+    },
+    "alarm": {
+      "title": "Radio Alarm Clock",
+      "p0": [
+        "This radio alarm clock is a toy project that I put together to get my feet wet with iOS programming.",
+        "I am using it occasionally and so far haven't missed an appointment."
+      ],
+      "p1Html": [
+        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-radio-clock'>GitHub</a>"
+      ]
+    },
+    "mandel": {
+      "title": "Mandelbrot Set Explorer",
+      "p0": [
+        "An experiment in implementing a step-wise refinement of a parallel calculation of the mandelbrot set",
+        "taking advantage of the GPU of an iPad."
+      ],
+      "p1Html": [
+        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-fractal-explorer'>GitHub</a>."
+      ]
     }
   }
 }

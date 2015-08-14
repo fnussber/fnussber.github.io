@@ -4,15 +4,38 @@
     "cv": "Curriculum",
     "projects": "Projekte"
   },
-  "app": {
-    "test": "Sprache ist Deutsch",
-    "name": "Holodrio Test Deutsch"
-  },
   "me": {
-    "p0": "Short English text section.",
-    "p1": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
-    "p2": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
-    "p3": "EN == At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+    "intro": {
+      "p0Html": [
+        "Ich bin Schweizer und lebe zur Zeit in den USA und arbeite für das ",
+        "<a href='http://www.gemini.edu'>Gemini Observatorium</a>, ",
+        "eine internationale Sternwarte auf dem Gipfel von <a href='https://de.wikipedia.org/wiki/Mauna_Kea'>Mauna Kea</a> auf Hawai'i."
+      ]
+    },
+    "multi": {
+      "title": "Multifunktional",
+      "p0": [
+        "Ich in ein pragmatischer Generalist, der sich gerne mit anderen Entwicklern, Kunden und Benutzerinnen",
+        "und Benutzern austauscht. Ich bevorzuge wenn immer möglich agile Entwicklungsmethoden",
+        "und habe in der Vergangenheit gute Erfahrungen mit Scrum gemacht."
+      ],
+      "p1": [
+        "Ich habe sowohl in unterschiedlichen Rollen in verschiedenen Branchen als auch ",
+        "in Projekten mit unterschiedlicher Komplexität und Organisation gearbeitet: vom Ein-Mann-Projekten über ",
+        "die Mitarbeit in einem international verteilten Team bis zum Teamleiter in einem Grossprojekt mit mehreren parallel arbeitenden Teams."
+      ]
+    },
+    "notwork": {
+      "title": "Und Sonst",
+      "p0Html": [
+        "In meiner Freizeit fahre ich manchmal ",
+        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS'>Motorrad</a>, wandere, laufe, fahre Fahrrad, versuche zu schwimmen ",
+         "(nicht meine stärkste Disziplin), ",
+        "mache die letzten drei Dinge <a href='http://www.lavamantriathlon.com/waikoloa/'>in kurzer Folge</a>, ",
+        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/'>tauche</a>,",
+        "lese <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four'>gute Bücher</a>, esse auswärts, ",
+        "spaziere mit meinem Hund oder schlafe."]
+    }
   },
   "cv": {
     "person":   "Person",
@@ -41,15 +64,123 @@
     "years":  "Jahre",
     "technologies": "Technologien",
     "description": "Beschreibung",
-    "nets": {
-      "desc0":  "A team of 25 developers and UI specialists were tasked to develop a modern planning system for one of the densest railway networks in the world from scratch. I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also actively involved in the development and architectural decisions. Main focus of the Business Layer Team was to provide services for the Presentation Layer Team to be consumed by their Eclipse RCP based client that allowed access to services like",
-      "desc1":  "A group of end users was involved in the agile development process in order to guarantee that the requirements were met and usability issues could be adressed and solved quickly."
-    },
     "qv": {
+      "title": "Visualisierung geplanter astronomischer Beobachtungen",
       "p0": [
-        "Das Gemini Observatorium verfügt über zwei 8.1-Meter Teleskope in Hawai'i und Chile, die ",
-        "zu den grössten Teleskopen für Astronomy in der Welt gehören. Observation time is in ",
-        "high demand and great effort is put into optimizing the utilization of its resources."]
+        "Das Gemini Observatorium verfügt über zwei Teleskope in Hawai'i und Chile, die mit ihren 8 Meter grossen Primärspiegeln",
+        "zu den grössten der Welt gehören. Da generell wesentlich mehr Beobachtungszeit ",
+        "angefragt wird als zur Verfügung steht, und der Betrieb solcher Sternwarten ausserdem teuer ist, ",
+        "wird viel Aufwand in eine gute Planung der zur Ausführung ausgewählten Beobachtungen gesteckt."
+      ],
+      "p1": [
+        "Der optimale Ausführungszeitpunkt für Beobachtungen ist ",
+        "abhängig von einer Vielzahl von Parametern wie z.B. die Sichtbarkeit und die Höhe über Horizont des",
+        "Objekts (abhängig von Jahres- und Tageszeit), Wetterverhältnisse, genauer Zeitpunkt, Mondphase, Verfügbarkeit",
+        "von Instrumenten und Instrumentkonfigurationen und vieles mehr."
+        ],
+      "p2": [
+        "Gemini's Queue Visualization Tool (QV) unterstützt das Planungsteam in der lang- und mittelfristigen ",
+        "Planung von optimalen Beobachtungszeitpunkten. Es stellt eine Vielzahl von Filteroperationen zur ",
+        "Verfügung, die es erlauben, von bestimmten Parametern abhängige Beobachtungen auszuwählen, diese zu ",
+        "sortieren und wesentliche Parameter wie z.B. die Sichtbarkeit und Höhe über Horizont, welche von der ",
+        "Jahres- und Tageszeit abhängig sind, graphisch darzustellen."
+        ],
+      "p3": [
+        "Zusätzlich zu den Abfrage-, Filter- und Sortierfunktionen erlaubt QV auch das Aktivieren und Deaktivieren",
+        "weiterer Einschränkungen wie z.B. die Verfügbarkeit von Instrumenten und Instrumentkonfigurationen, die",
+        "minimal einzuhaltende Höhe über Horizont oder die Mondhelligkeit, was 'was-wäre-wenn' Analysen erlaubt",
+        "mit denen Rückschlüsse auf allfällig notwendige Änderungen oder Optimierungen der Beobachtungsparameter ",
+        "oder die langfristige Planung von Instrumenten und deren Konfigurationen wie z.B. bestimmten Filtern ",
+        "erlaubt."
+      ],
+      "p4": [
+        "Während QV zu Beginn nur für ein paar wenige spezifische Anwendungsfälle gedacht war, gelang es",
+        "in Zusammenarbeit mit den Benutzern eine Lösung zu bauen, die dank ihren umfangreichen Abfragefunktionen",
+        "auf den Beobachtungsdaten heute auch für andere Einsatzzwecke verwendet wird."
+      ]
+    },
+    "ltts": {
+      "title": "Freigabeverwaltung für den Einsatz von starken Lasern in der Astronomie",
+      "p0Html": [
+        "Sternwarten verwenden häufig starke Laser um <a href='https://de.wikipedia.org/wiki/K%C3%BCnstlicher_Leitstern'>künstliche Leisterne</a> (d.h. Lichtpunkte) in hohen Schichten ",
+        "der Atmosphäre zu erzeugen. Diese werden als Referenzpunkte für die <a href='https://de.wikipedia.org/wiki/Adaptive_Optik'>Adaptive Optiken</a>",
+        " genutzt, die es ermöglichen, Turbulenzen in der Luft auszugleichen.",
+        "Da, wenn auch sehr unwahrscheinlich, Satelliten durch diese Laser beeinträchtigt werden könnten, muss der Gebrauch ",
+        " durch das US Militär ",
+        "für jede Position am Himmel und für die Dauer des Lasereinsatzes vorgängig freigegeben werden."],
+      "p1": [
+        "Ziel des Projekts war es, einen arbeitsaufwändigen manuellen Prozess für die Erstellung einer Liste",
+        "mit allen potenziellen Laserzielen und deren Zeitfenster durch einen automatisierten Prozess zu ",
+        "ersetzen und ausserdem während der Nacht bessere Informationen zur Verfügung zu stellen.",
+        "Der neue Prozess sammelt automatisch alle potenziellen Beobachtungen für alle Nächte in denen der Laser",
+        "zum Einsatz kommen wird an Hand von Faktoren wie z.B. deren Sichtbarkeit während der Nacht und stellt",
+        "dann eine Liste mit diesen Positionen zusammen, die auf eine spezielle Webseite des Militärs hochgeladen",
+        "wird. Diese Liste wird verarbeitet und das Resultat - eine Liste mit sekundengenauen Zeitfenstern für alle Beobachtungspositionen -",
+        "zur Verfügugn steht, wird automatisch von der Seite heruntergeladen und verarbeitet."],
+      "p2": [
+        "Um sicherzustellen, dass die freigegebenen Zeitfenster genau eingehalten werden, vergleicht die Software",
+        "ständig die Position des Lasers am Himmel mit diesen Zeitfenstern. Ist der Laser am Ende eines Zeitfensters noch aktiv,",
+        "wird er automatisch abgeschaltet."],
+      "p3": [
+        "Ein Webclient zeigt ständig die für die aktuelle Position gültigen Zeitfenster und gibt",
+        "akustische und optische Warnhinweise über die noch verfügbare Beobachtungszeit. Zusätzlich werden auch",
+        "noch weitere Warnungen wie z.B. das Erreichen der Mindesthöhe über Horizont gegeben."]
+    },
+    "nets": {
+      "title": "Netzweites Trassen-System NeTS für die SBB",
+      "customerHtml": "<a href='http://www.sbb.ch/sbb-konzern.html'>Schweizerische Bundesbahnen SBB</a>",
+      "role": "Teamleiter Business Layer, Entwickler",
+      "p0Html": [
+        "Die Schweizerischen Bundesbahnen (SBB) betreiben eines der dichtesten Eisenbahnnetze der Welt.",
+        "Während zwei Jahren war ein Team von rund 25 Entwicklern und UI Experten der SBB und mehrerer externer ",
+        "Dienstleister damit beauftragt, die damalige ",
+        "Planungslösung mit einer neuen Lösung mit einer moderneren Architektur und grösserem Funktionsumfang abzulösen. ",
+        "Diese basierte auf einem <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform'>Eclipse RCP</a>",
+        "Client, einer <a href='http://www.ibm.com/software/websphere'>WebSphere</a> Serverlösung und einer ",
+        "<a href='https://www.oracle.com/database/index.html'>Oracle Datenbank</a>."
+      ],
+      "p1": [
+        "Innerhalb des Projekts war ich als fachlicher Teamleiter verantwortlich für das Business Layer Team mit 5 Personen",
+        "und sowohl aktiv im Entwicklungsprozess als auch in Planungs- und Architekturentscheidungen involviert.",
+        "Aufgabe unseres Teams war, Services zu bauen, die z.B. detaillierte Informationen über verfügbares Rollmaterial",
+        "und geplante Zugskompositionen oder detaillierte Informationen zum Bahnnetz bis hinunter zu Signalanlagen dem Client",
+        "zur Vergügung stellen konnten. Andere Aspekte waren die täglichen Fahrpläne mit all ihren Ausnahmen, oder die",
+        "realitätsnahe Berechnung von Zugfahrzeiten basierend auf der geplanten Strecke und Parametern der Zugskomposition",
+        "wie Lokomotive und Gewicht der Wagen. So war es beispielsweise möglich zu überprüfen, dass eine bestimmte Zugskomposition",
+        "den geplanten Fahrplan auf einer Strecke auch tatsächlich einhalten kann."
+      ],
+      "p2": [
+        "Nachdem ein erster Versuch die alte Planungslösung zu ersetzen auf Grund der Komplexität",
+        "des Projekts gescheitert war, wollte die SBB einen agilen Entwicklungsprozess ausprobieren und",
+        "es wurde grosser Wert darauf gelegt, von Beginn weg eine Gruppe von Benutzern",
+        "zu involvieren. Dies garantierte kontinuierliche Rückmeldungen zum aktuellen Stand der Software und ",
+        "erlaubte es, fortlaufend die Funktionalität zu überprüfen und Schwachstellen in Bedienbarkeit und Effizienz frühzeitig ",
+        "zu erkennen und zu adressieren."
+      ],
+      "p3Html": [
+        "Mehr Informationen entnehmen Sie bitte dem ",
+        "<a href='http://www.netcetera.com/de/dms/documents/case-studies-and-factsheets/brochure-nets-de/brochure-nets-de-20110418-low-resolution.pdf'>Produktbeschrieb</a> ",
+        " von der Website eines weiteren in das Projekt involvierten Dienstleisters."]
+    },
+    "alarm": {
+      "title": "Alarmuhr mit Internetradio",
+      "p0": [
+        "Diese Alarmuhr war ein Hobbyprojekt um erste Erfahrungen mit iOS Programmierung zu sammeln.",
+        "Ich habe diesen Wecker gelegentlich auch schon selber benutzt - und bisher noch keine Verabredung verpasst."
+      ],
+      "p1Html": [
+        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-radio-clock'>GitHub</a>."
+      ]
+    },
+    "mandel": {
+      "title": "Mandelbrot Explorer",
+      "p0": [
+        "Implementation einer schrittweisen Berechnung der Mandelbrotmenge welche die GPU eines iPad zur Beschleunigung nutzt. "
+      ],
+      "p1Html": [
+        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-fractal-explorer'>GitHub</a>."
+      ]
     }
+
   }
 }
