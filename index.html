@@ -20,8 +20,16 @@
 
     <!-- minor changes to bootstrap stylesheets -->
     <style>
-        /* make gradients go away from carousel */
-        .carousel-control.left, .carousel-control.right{ background: none !important; filter: progid:none !important; }
+      /* make gradients go away from carousel */
+      .carousel-control.left,
+      .carousel-control.right {
+        background: none !important;
+        filter: progid:none !important;
+      }
+      /* make indicators visible on white background */
+      .carousel-indicators li {
+        border:1px solid #2190E4;
+      }
     </style>
 
   </head>
