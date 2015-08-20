@@ -8,7 +8,7 @@
     "intro": {
       "p0Html": [
         "Ich bin Schweizer und lebe zur Zeit in den USA und arbeite für das ",
-        "<a href='http://www.gemini.edu'>Gemini Observatorium</a>, ",
+        "<a href='http://www.gemini.edu' target='_blank'>Gemini Observatorium</a>, ",
         "eine internationale Sternwarte auf dem Gipfel von <a href='https://de.wikipedia.org/wiki/Mauna_Kea'>Mauna Kea</a> auf Hawai'i."
       ]
     },
@@ -29,11 +29,11 @@
       "title": "Und Sonst",
       "p0Html": [
         "In meiner Freizeit fahre ich manchmal ",
-        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS'>Motorrad</a>, wandere, laufe, fahre Fahrrad, versuche zu schwimmen ",
+        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS' target='_blank'>Motorrad</a>, wandere, laufe, fahre Fahrrad, versuche zu schwimmen ",
          "(nicht meine stärkste Disziplin), ",
-        "mache die letzten drei Dinge <a href='http://www.lavamantriathlon.com/waikoloa/'>in kurzer Folge</a>, ",
-        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/'>tauche</a>,",
-        "lese <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four'>gute Bücher</a>, esse auswärts, ",
+        "mache die letzten drei Dinge <a href='http://www.lavamantriathlon.com/waikoloa/' target='_blank'>in kurzer Folge</a>, ",
+        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/' target='_blank'>tauche</a>,",
+        "lese <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four' target='_blank'>gute Bücher</a>, esse auswärts, ",
         "spaziere mit meinem Hund oder schlafe."]
     }
   },
@@ -102,7 +102,7 @@
     "ltts": {
       "title": "Freigabeverwaltung für den Einsatz von starken Lasern in der Astronomie",
       "p0Html": [
-        "Sternwarten verwenden häufig starke Laser um <a href='https://de.wikipedia.org/wiki/K%C3%BCnstlicher_Leitstern'>künstliche Leisterne</a> (d.h. Lichtpunkte) in hohen Schichten ",
+        "Sternwarten verwenden häufig starke Laser um <a href='https://de.wikipedia.org/wiki/K%C3%BCnstlicher_Leitstern' target='_blank'>künstliche Leisterne</a> (d.h. Lichtpunkte) in hohen Schichten ",
         "der Atmosphäre zu erzeugen. Diese werden als Referenzpunkte für die <a href='https://de.wikipedia.org/wiki/Adaptive_Optik'>Adaptive Optiken</a>",
         " genutzt, die es ermöglichen, Turbulenzen in der Luft auszugleichen.",
         "Da, wenn auch sehr unwahrscheinlich, Satelliten durch diese Laser beeinträchtigt werden könnten, muss der Gebrauch ",
@@ -128,16 +128,16 @@
     },
     "nets": {
       "title": "Netzweites Trassen-System NeTS für die SBB",
-      "customerHtml": "<a href='http://www.sbb.ch/sbb-konzern.html'>Schweizerische Bundesbahnen SBB</a>",
+      "customerHtml": "<a href='http://www.sbb.ch/sbb-konzern.html' target='_blank'>Schweizerische Bundesbahnen SBB</a>",
       "role": "Teamleiter Business Layer, Entwickler",
       "p0Html": [
         "Die Schweizerischen Bundesbahnen (SBB) betreiben eines der dichtesten Eisenbahnnetze der Welt.",
         "Während zwei Jahren war ein Team von rund 25 Entwicklern und UI Experten der SBB und mehrerer externer ",
         "Dienstleister damit beauftragt, die damalige ",
         "Planungslösung mit einer neuen Lösung mit einer moderneren Architektur und grösserem Funktionsumfang abzulösen. ",
-        "Diese basierte auf einem <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform'>Eclipse RCP</a>",
-        "Client, einer <a href='http://www.ibm.com/software/websphere'>WebSphere</a> Serverlösung und einer ",
-        "<a href='https://www.oracle.com/database/index.html'>Oracle Datenbank</a>."
+        "Diese basierte auf einem <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform' target='_blank'>Eclipse RCP</a>",
+        "Client, einer <a href='http://www.ibm.com/software/websphere' target='_blank'>WebSphere</a> Serverlösung und einer ",
+        "<a href='https://www.oracle.com/database/index.html' target='_blank'>Oracle Datenbank</a>."
       ],
       "p1": [
         "Innerhalb des Projekts war ich als fachlicher Teamleiter verantwortlich für das Business Layer Team mit 5 Personen",
@@ -159,7 +159,7 @@
       ],
       "p3Html": [
         "Mehr Informationen entnehmen Sie bitte dem ",
-        "<a href='http://www.netcetera.com/de/dms/documents/case-studies-and-factsheets/brochure-nets-de/brochure-nets-de-20110418-low-resolution.pdf'>Produktbeschrieb</a> ",
+        "<a href='http://www.netcetera.com/de/dms/documents/case-studies-and-factsheets/brochure-nets-de/brochure-nets-de-20110418-low-resolution.pdf' target='_blank'>Produktbeschrieb</a> ",
         " von der Website eines weiteren in das Projekt involvierten Dienstleisters."]
     },
     "alarm": {
@@ -169,7 +169,7 @@
         "Ich habe diesen Wecker gelegentlich auch schon selber benutzt - und bisher noch keine Verabredung verpasst."
       ],
       "p1Html": [
-        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-radio-clock'>GitHub</a>."
+        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-radio-clock' target='_blank'>GitHub</a>."
       ]
     },
     "mandel": {
@@ -178,7 +178,7 @@
         "Implementation einer schrittweisen Berechnung der Mandelbrotmenge welche die GPU eines iPad zur Beschleunigung nutzt. "
       ],
       "p1Html": [
-        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-fractal-explorer'>GitHub</a>."
+        "Mehr Details und den Quellcode finden Sie auf <a href='https://github.com/fnussber/ios-fractal-explorer' target='_blank'>GitHub</a>."
       ]
     }
 

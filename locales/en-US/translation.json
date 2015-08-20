@@ -8,8 +8,8 @@
     "intro": {
       "p0Html": [
         "I am a Swiss citizen currently working in the US for ",
-        "<a href='http://www.gemini.edu'>Gemini Observatory</a>, ",
-        "an international astronomical observatory on top of <a href='https://en.wikipedia.org/wiki/Mauna_Kea'>Mauna Kea</a> on Hawai'i."
+        "<a href='http://www.gemini.edu' target='_blank'>Gemini Observatory</a>, ",
+        "an international astronomical observatory on top of <a href='https://en.wikipedia.org/wiki/Mauna_Kea' target='_blank'>Mauna Kea</a> on Hawai'i."
       ]
     },
     "multi": {
@@ -29,10 +29,10 @@
       "title": "When Not Working",
       "p0Html": [
         "In my spare time I can be found, ",
-        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS'>motorbiking</a>, hiking, running, cycling, trying to swim (not my best discipline), ",
-        "do all of the previous three in <a href='http://www.lavamantriathlon.com/waikoloa/'>short succession</a>, ",
-        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/'>scuba diving</a>",
-        "vegging at home, reading a <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four'>good book</a>, eating in a restaurant or walking my dog."]
+        "<a href='https://en.wikipedia.org/wiki/BMW_R1200GS' target='_blank'>motorbiking</a>, hiking, running, cycling, trying to swim (not my best discipline), ",
+        "do all of the previous three in <a href='http://www.lavamantriathlon.com/waikoloa/' target='_blank'>short succession</a>, ",
+        "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/' target='_blank'>scuba diving</a>",
+        "vegging at home, reading a <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four' target='_blank'>good book</a>, eating in a restaurant or walking my dog."]
     }
   },
   "cv": {
@@ -95,9 +95,9 @@
     "ltts": {
       "title": "Clearance Support for High Powered Laser Usage in Astronomy",
       "p0Html": [
-        "Astronomical observatories often use high powered lasers to project artifical 'guide stars' (i.e.",
+        "Astronomical observatories often use high powered lasers to project artificial 'guide stars' (i.e.",
         "points of light) on high atmospheric layers. These are used as a reference in",
-        "<a href='https://en.wikipedia.org/wiki/Adaptive_optics#In_astronomy'>Adaptive Optics</a> systems",
+        "<a href='https://en.wikipedia.org/wiki/Adaptive_optics#In_astronomy' target='_blank'>Adaptive Optics</a> systems",
         "in order to correct for atmospheric turbulences. Although highly unlikely, the use of such lasers could ",
         "interfere with the operation of satellites in space and has therefore to be cleared ",
         "by the US military."
@@ -116,26 +116,26 @@
         "current telescope pointing position and comparing it with those windows. If it detects that the laser ",
         "is used outside a window that has been cleared by the military the laser is automatically shuttered."],
       "p3": [
-        "A web frontend allows to see the current state of he system and gives visual and audible clues when ",
+        "A web frontend allows to see the current state of the system and gives visual and audible clues when ",
         "during long during observations a closure window is approaching and the laser needs to be shuttered."]
     },
     "nets": {
       "title": "Network-wide Track Management System for Swiss Federal Railways",
-      "customerHtml": "<a href='http://www.sbb.ch/en/group.html'>Swiss Federal Railways</a>",
+      "customerHtml": "<a href='http://www.sbb.ch/en/group.html' target='_blank'>Swiss Federal Railways</a>",
       "role": "Team Lead Business Layer, Developer",
       "p0Html": [
         "The Swiss Federal Railways (SBB) operate one of the densest railway networks in the world. In order ",
         "to replace an existing planning software with a more modern solution with improved functionality a team ",
         "of 25 developers and UI specialists from SBB and external companies was tasked during two years with a ",
-        "complete rewrite based on an <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform'>Eclipse RCP</a> ",
-        "client and a server based on <a href='http://www.ibm.com/software/websphere'>WebSphere</a> and an",
-         "<a href='https://www.oracle.com/database/index.html'>Oracle database</a>."],
+        "complete rewrite based on an <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform' target='_blank'>Eclipse RCP</a> ",
+        "client and a server based on <a href='http://www.ibm.com/software/websphere' target='_blank'>WebSphere</a> and an",
+         "<a href='https://www.oracle.com/database/index.html' target='_blank'>Oracle database</a>."],
       "p1": [
         "I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also ",
         "actively involved in the development, planning decisions and some architectural decisions. Main focus of ",
         "the Business Layer Team was to provide services like for example detailed information about rolling stock ",
         "and train compositions or railway network information including detailed track information down to traffic ",
-        "lights and signalisation. Other aspects covered by the business layer are the daily train schedules, ",
+        "lights and signalisation. Other aspects covered by those services are the daily train schedules, ",
         "journey time calculations based on actual train parameters like engines and weight and checks which can ",
         "be used to validate if planned schedules are feasible."],
       "p2": [
@@ -146,7 +146,7 @@
         "issues at an early stage."],
       "p3Html": [
         "For more information also see ",
-        "<a href='http://www.netcetera.com/en/dms/documents/case-studies-and-factsheets/brochure-nets-en/brochure-nets-en-20110418-low-resolution.pdf'>a product prospectus</a> ",
+        "<a href='http://www.netcetera.com/en/dms/documents/case-studies-and-factsheets/brochure-nets-en/brochure-nets-en-20110418-low-resolution.pdf' target='_blank'>a product prospectus</a> ",
         "on the web page of another external company that was involved in the project."]
     },
     "alarm": {
@@ -156,7 +156,7 @@
         "I am using it occasionally and so far haven't missed an appointment."
       ],
       "p1Html": [
-        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-radio-clock'>GitHub</a>"
+        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-radio-clock' target='_blank'>GitHub</a>"
       ]
     },
     "mandel": {
@@ -166,7 +166,7 @@
         "taking advantage of the GPU of an iPad."
       ],
       "p1Html": [
-        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-fractal-explorer'>GitHub</a>."
+        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-fractal-explorer' target='_blank'>GitHub</a>."
       ]
     }
   }
