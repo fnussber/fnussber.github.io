@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "Über mich",
-    "cv": "Curriculum",
+    "cv": "Lebenslauf",
     "projects": "Projekte"
   },
   "me": {
@@ -33,8 +33,7 @@
          "(nicht meine stärkste Disziplin), ",
         "mache die letzten drei Dinge <a href='http://www.lavamantriathlon.com/waikoloa/' target='_blank'>in kurzer Folge</a>, ",
         "<a href='http://www.padi.com/scuba-diving/padi-courses/course-catalog/rescue-diver/' target='_blank'>tauche</a>,",
-        "lese <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four' target='_blank'>gute Bücher</a>, esse auswärts, ",
-        "spaziere mit meinem Hund oder schlafe."]
+        "lese <a href='https://en.wikipedia.org/wiki/Nineteen_Eighty-Four' target='_blank'>gute Bücher</a> oder esse auswärts."]
     }
   },
   "cv": {
@@ -46,13 +45,12 @@
     "education": "Ausbildung",
     "knowhow": "Know-How",
     "languages": "Sprachen",
+    "computerlanguages": "Computersprachen",
     "technologies": "Technologien",
     "methods": "Methodik",
     "roles": "Rollen",
     "databases": "Datenbanken",
-    "architect": "Architekt",
-    "maidofallwork":  "Mädchen für Alles"
-
+    "architect": "Architekt"
   },
   "prj": {
     "projects": "Projekte",

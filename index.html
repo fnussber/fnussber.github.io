@@ -70,6 +70,13 @@
         function translateAll() {
             $(".i18n").i18n();
         }
+        function showProject(prj) {
+            $("#navPrj").click();
+            $("#content").load("content_projects.html", function () {
+                $("#collapse"+prj).collapse('show');
+            });
+        }
+
     </script>
   </body>
 </html>
