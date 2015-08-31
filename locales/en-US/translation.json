@@ -49,7 +49,82 @@
     "methods": "Methods",
     "roles": "Roles",
     "databases": "Databases",
-    "architect": "Architect"
+    "architect": "Architect",
+    "exp": {
+      "gemini": {
+        "time": "2010 - Current",
+        "place": "Hilo, USA",
+        "p0Html": [
+          "Design and development of new, and enhancements to existing software for operations support.",
+          "OSGi and Spring based server infrastructures, Swing based client and Vaadin and jQuery based web development.",
+          "Refactorings on large existing code base. Agile processes with lots of direct interactions with users.",
+          "Project management. Working in a diverse science environment with an internationally distributed",
+          "team (USA, Chile). Details for two projects can be found",
+          "<a href='#' onclick='showProject(\"Qv\");'>here</a> and",
+          "<a href='#' onclick='showProject(\"Ltts\");'>here</a>."
+        ]
+      },
+      "advellence": {
+        "place": "Wallisellen, Switzerland",
+        "p0": [
+          "Design and development of a case and document management application for the government of the",
+          "City of Zurich based on Microsoft Sharepoint. Responsible for code quality, evaluation of",
+          "development tools and libraries and support of internal development team.",
+          "Business analysis and requirements engineering with users. Data migration."
+        ]
+      },
+      "cs": {
+        "place": "Zurich, Switzerland",
+        "p0": [
+          "Further development of an internet banking platform for external asset managers.",
+          "Requirements management and product management."
+        ]
+      },
+      "ergon": {
+        "place": "Zurich, Switzerland",
+        "p0Html": [
+          "Design and development of software in finance, telecommunications and transport industries.",
+          "Working with a variety of technologies and in different application layers (client, server, web, mobile).",
+          "Responsible for training of internal software development apprentices. Project management.",
+          "Team lead in a major <a href='#' onclick='showProject(\"NeTS\");'>project</a>."
+        ]
+      },
+      "eth": {
+        "place": "Zurich, Switzerland",
+        "title": "Research Assistant",
+        "p0": [
+          "System administration. Teaching assistance."
+        ]
+      }
+    },
+    "edu": {
+      "mba": {
+        "inst":  "Kalaidos University of Applied Sciences",
+        "place": "Zurich, Switzerland",
+        "title": "Executive Master of Business Administration FH",
+        "grade": "Overall grade 5.1 out of 6"
+      },
+      "zli": {
+        "inst":  "Zürcher Lehrbetriebsverband ICT (ZLI)",
+        "place": "Zurich, Switzerland",
+        "title": "Taskmaster for Apprentices"
+      },
+      "abdn": {
+        "place": "Scotland, UK",
+        "title": "Exchange Semester",
+        "grade": "Overall grade 19 out of 20"
+      },
+      "eth": {
+        "place": "Zurich, Switzerland",
+        "title": "Master of Science ETH in Computer Science",
+        "grade": "Overall grade 5.5 out of 6"
+      },
+      "ksw": {
+        "place": "Zurich, Switzerland",
+        "title": "Grammar School",
+        "grade": "Overall grade 5.1 out of 6"
+      }
+    }
   },
   "prj": {
     "projects": "Projects",

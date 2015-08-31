@@ -50,7 +50,82 @@
     "methods": "Methodik",
     "roles": "Rollen",
     "databases": "Datenbanken",
-    "architect": "Architekt"
+    "architect": "Architekt",
+    "exp": {
+      "gemini": {
+        "time": "2010 - Heute",
+        "place": "Hilo, USA",
+        "p0Html": [
+          "Design und Entwicklung neuer, und Weiterentwicklung existierender Planungs- und Operationssoftware.",
+          "OSGi und Spring basierte Serverinfrastrukturen, Swing basierte Client-, und Vaadin und jQuery basierte",
+          "Webentwicklung. Refactorings auf grosser existierender Codebasis. Agile Entwicklungsprozesse mit häufiger,",
+          "direkter Interaktion mit Benutzern. Projektmanagement. Arbeit in einem vielfältigen Forschungsumfeld und",
+          "einem international verteilten Team (USA, Chile). Details für zwei Projekte finden sich",
+          "<a href='#' onclick='showProject(\"Qv\");'>hier</a> und",
+          "<a href='#' onclick='showProject(\"Ltts\");'>hier</a>."
+        ]
+      },
+      "advellence": {
+        "place": "Wallisellen, Schweiz",
+        "p0": [
+          "Design und Entwicklung einer Geschäfts- und Dokumentenverwaltungssoftware für die Stadt",
+          "Zürich basierend auf Microsoft Sharepoint. Verantwortlich für Codequalität, Auswahl von ",
+          "Entwicklungswerkzeugen und Libraries und Unterstützung des internen Entwicklungsteams.",
+          "Businessanalyse und Requirementsengineering mit dem Kunden. Datenmigration."
+        ]
+      },
+      "cs": {
+        "place": "Zürich, Schweiz",
+        "p0": [
+          "Weiterentwicklung einer Internetbankingplattform für externe Asset Manager.",
+          "Requirementsmanagement und Produktmanagement."
+        ]
+      },
+      "ergon": {
+        "place": "Zürich, Schweiz",
+        "p0Html": [
+          "Design und Entwicklung unterschiedlicher Applikationen im Finanz-, Telekommunikations- und Transportbereich.",
+          "Arbeit mit verschiedensten Technologien in diversen Applikationsbereichen (Client, Server, Web, Mobile).",
+          "Verantwortlicher für Betreuung von Lernenden im Bereich Applikationsentwicklungs. Projektmanagement.",
+          "Teamleiter in einem komplexen <a href='#' onclick='showProject(\"NeTS\");'>Projekt</a> für die SBB."
+        ]
+      },
+      "eth": {
+        "place": "Zürich, Schweiz",
+        "title": "Assistent",
+        "p0": [
+          "Systemadministration. Studentenbetreuung."
+        ]
+      }
+    },
+    "edu": {
+      "mba": {
+        "inst":  "Kalaidos Fachhochschule",
+        "place": "Zürich, Schweiz",
+        "title": "Executive Master of Business Administration FH",
+        "grade": "Durchschnittsnote 5.1 von 6"
+      },
+      "zli": {
+        "inst":  "Zürcher Lehrbetriebsverband ICT (ZLI)",
+        "place": "Zürich, Schweiz",
+        "title": "Berufsbildner"
+      },
+      "abdn": {
+        "place": "Schottland, UK",
+        "title": "Austauschsemester",
+        "grade": "Durchschnittnote 19 von 20"
+      },
+      "eth": {
+        "place": "Zürich, Schweiz",
+        "title": "Eidg. dipl. Inormatikingenieur ETH",
+        "grade": "Durchschnittsnote 5.5 von 6"
+      },
+      "ksw": {
+        "place": "Zürich, Schweiz",
+        "title": "Matura Typus B",
+        "grade": "Durchschnittsnote 5.1 von 6"
+      }
+    }
   },
   "prj": {
     "projects": "Projekte",
