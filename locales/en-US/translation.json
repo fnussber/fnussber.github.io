@@ -51,6 +51,9 @@
     "databases": "Databases",
     "architect": "Architect",
     "exp": {
+      "2yrs": "2 years",
+      "5yrs": "5 years",
+      "8yrs": "8 years",
       "gemini": {
         "time": "2010 - Current",
         "place": "Hilo, USA",
