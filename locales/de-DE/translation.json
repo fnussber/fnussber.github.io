@@ -45,6 +45,8 @@
     "education": "Ausbildung",
     "knowhow": "Know-How",
     "languages": "Sprachen",
+    "german": "Deutsch",
+    "english": "Englisch",
     "computerlanguages": "Computersprachen",
     "technologies": "Technologien",
     "methods": "Methodik",
@@ -61,7 +63,7 @@
         "p0Html": [
           "Design und Entwicklung neuer, und Weiterentwicklung existierender Planungs- und Operationssoftware.",
           "OSGi und Spring basierte Serverinfrastrukturen, Swing basierte Client-, und Vaadin und jQuery basierte",
-          "Webentwicklung. Refactorings auf grosser existierender Codebasis. Agile Entwicklungsprozesse mit häufiger,",
+          "Webentwicklung. Umfangreiche Refactorings auf grosser existierender Codebasis. Agile Entwicklungsprozesse mit häufiger,",
           "direkter Interaktion mit Benutzern. Projektmanagement. Arbeit in einem vielfältigen Forschungsumfeld und",
           "einem international verteilten Team (USA, Chile). Details für zwei Projekte finden sich",
           "<a href='#' onclick='showProject(\"Qv\");'>hier</a> und",
@@ -108,7 +110,7 @@
         "grade": "Durchschnittsnote 5.1 von 6"
       },
       "zli": {
-        "inst":  "Zürcher Lehrbetriebsverband ICT (ZLI)",
+        "inst":  "Zürcher Lehrbetriebsverband ICT",
         "place": "Zürich, Schweiz",
         "title": "Berufsbildner"
       },
@@ -126,6 +128,21 @@
         "place": "Zürich, Schweiz",
         "title": "Matura Typus B",
         "grade": "Durchschnittsnote 5.1 von 6"
+      }
+    },
+    "train": {
+      "title": "Aktuelle Kurse",
+      "utrecht": {
+        "inst":  "Utrecht Summer School",
+        "place": "University of Utrecht, Niederlande",
+        "title": "Applied Functional Programming in Haskell",
+        "grade": ""
+      },
+      "scala": {
+        "inst":  "coursera.org / EPFL Lausanne",
+        "place": "Onlinekurs",
+        "title": "Functional Programming Principles in Scala",
+        "grade": ""
       }
     }
   },

@@ -44,6 +44,8 @@
     "education": "Education",
     "knowhow": "Know-How",
     "languages": "Languages",
+    "german": "German",
+    "english": "English",
     "computerlanguages": "Computer Languages",
     "technologies": "Technologies",
     "methods": "Methods",
@@ -60,7 +62,8 @@
         "p0Html": [
           "Design and development of new, and enhancements to existing software for operations support.",
           "OSGi and Spring based server infrastructures, Swing based client and Vaadin and jQuery based web development.",
-          "Refactorings on large existing code base. Agile processes with lots of direct interactions with users.",
+          "Extensive refactorings on large existing code base. Agile processes with lots",
+          "of direct interactions with users.",
           "Project management. Working in a diverse science environment with an internationally distributed",
           "team (USA, Chile). Details for two projects can be found",
           "<a href='#' onclick='showProject(\"Qv\");'>here</a> and",
@@ -107,7 +110,7 @@
         "grade": "Overall grade 5.1 out of 6"
       },
       "zli": {
-        "inst":  "Zürcher Lehrbetriebsverband ICT (ZLI)",
+        "inst":  "Zürcher Lehrbetriebsverband ICT",
         "place": "Zurich, Switzerland",
         "title": "Taskmaster for Apprentices"
       },
@@ -123,9 +126,25 @@
       },
       "ksw": {
         "place": "Zurich, Switzerland",
-        "title": "Grammar School",
+        "title": "Grammar School / High School",
         "grade": "Overall grade 5.1 out of 6"
       }
+    },
+    "train": {
+      "title": "Recent Trainings",
+      "utrecht": {
+        "inst":  "Utrecht Summer School",
+        "place": "University of Utrecht, Netherlands",
+        "title": "Applied Functional Programming in Haskell",
+        "grade": ""
+      },
+      "scala": {
+        "inst":  "coursera.org / EPFL Lausanne",
+        "place": "Online Course",
+        "title": "Functional Programming Principles in Scala",
+        "grade": ""
+      }
+
     }
   },
   "prj": {
@@ -233,7 +252,9 @@
         "I am using it occasionally and so far haven't missed an appointment."
       ],
       "p1Html": [
-        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-radio-clock' target='_blank'>GitHub</a>"
+        "Check out the readme and source code on <a href='https://github.com/fnussber/ios-radio-clock' target='_blank'>GitHub</a>.",
+        "The audio is music and the news from a Swiss radio station. While in the video animations sometimes seem to stutter a bit,",
+        "they are smooth on the device."
       ]
     },
     "mandel": {
