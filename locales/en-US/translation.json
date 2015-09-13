@@ -149,7 +149,11 @@
   },
   "prj": {
     "projects": "Projects",
-    "intro":    "A short selection of some interesting projects I have been involved in professionally and some private projects that are available on GitHub ",
+    "intro": [
+      "A short selection of some interesting projects I have been involved in professionally.",
+      "Clicking on a project title will display more details. Also check out some of my private projects that",
+      "are available on GitHub "
+    ],
     "employer":   "Employer",
     "customer":   "Customer",
     "role":   "Role",
@@ -246,7 +250,7 @@
         "on the web page of another external company that was involved in the project."]
     },
     "alarm": {
-      "title": "Radio Alarm Clock",
+      "title": "iOS Radio Alarm Clock",
       "p0": [
         "This radio alarm clock is a toy project that I put together to get my feet wet with iOS programming.",
         "I am using it occasionally and so far haven't missed an appointment."
@@ -258,7 +262,7 @@
       ]
     },
     "mandel": {
-      "title": "Mandelbrot Set Explorer",
+      "title": "iOS Mandelbrot Set Explorer",
       "p0": [
         "An experiment in implementing a step-wise refinement of a parallel calculation of the mandelbrot set",
         "taking advantage of the GPU of an iPad."

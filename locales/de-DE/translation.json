@@ -148,7 +148,11 @@
   },
   "prj": {
     "projects": "Projekte",
-    "intro":    "Eine Auswahl interessanter beruflicher Projekte, in die ich involviert war, und einige private Projekte, die auf GitHub verfügbar sind ",
+    "intro":    [
+      "Eine Auswahl interessanter Projekte, in die ich beruflich involviert war. Beim ",
+      "Anklicken des Projekttitels werden weitere Details angezeigt. Ausserdem einige private",
+      "Projekte, die auf GitHub einsehbar sind "
+    ],
     "employer":   "Arbeitgeber",
     "customer":   "Kunde",
     "role":   "Rolle",
@@ -255,7 +259,7 @@
         " von der Website eines weiteren in das Projekt involvierten Dienstleisters."]
     },
     "alarm": {
-      "title": "Alarmuhr mit Internetradio",
+      "title": "iOS Alarmuhr mit Internetradio",
       "p0": [
         "Diese Alarmuhr war ein Hobbyprojekt um erste Erfahrungen mit iOS Programmierung zu sammeln.",
         "Ich habe diesen Wecker gelegentlich auch schon selber benutzt - und bisher noch keine Verabredung verpasst."
@@ -265,7 +269,7 @@
       ]
     },
     "mandel": {
-      "title": "Mandelbrot Explorer",
+      "title": "iOS Mandelbrot Explorer",
       "p0": [
         "Implementation einer schrittweisen Berechnung der Mandelbrotmenge welche die GPU eines iPad zur Beschleunigung nutzt. "
       ],
