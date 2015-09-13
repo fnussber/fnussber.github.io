@@ -213,7 +213,7 @@
         "is used outside a window that has been cleared by the military the laser is automatically shuttered."],
       "p3": [
         "A web frontend allows to see the current state of the system and gives visual and audible clues when ",
-        "during long during observations a closure window is approaching and the laser needs to be shuttered."]
+        "during long observations a closure window is approaching and the laser needs to be shuttered."]
     },
     "nets": {
       "title": "Network-wide Track Management System for Swiss Federal Railways",
