@@ -15,14 +15,31 @@
     "multi": {
       "title": "Multifunktional",
       "p0": [
-        "Ich in ein pragmatischer Generalist, der sich gerne mit anderen Entwicklern, Kunden und Benutzerinnen",
-        "und Benutzern austauscht. Ich bevorzuge wenn immer möglich agile Entwicklungsmethoden",
-        "und habe in der Vergangenheit gute Erfahrungen mit Scrum gemacht."
+        "Ich bin ein pragmatischer Generalist mit einem Blick für Details ohne dabei das Wesentliche aus",
+        "den Augen zu verlieren. Ich arbeite gerne im Team, schätze den direkten Kontakt mit",
+        "Kunden und bevorzuge wenn immer möglich agile Entwicklungsmethoden."
       ],
       "p1": [
-        "Ich habe sowohl in unterschiedlichen Rollen in verschiedenen Branchen als auch ",
-        "in Projekten mit unterschiedlicher Komplexität und Organisation gearbeitet: vom Ein-Mann-Projekt über ",
-        "die Mitarbeit in einem international verteilten Team bis zum Teamleiter in einem Grossprojekt mit mehreren parallel arbeitenden Teams."
+        "Ein Masterabschluss in Informatik, kontinuierliche Weiterbildung und ein stetes Interesse an Neuem erlauben",
+        "es mir, technisch auf dem Laufenden zu bleiben, fortlaufend neue Best Practices zu adoptieren und mich",
+        "effizient in neue Technologien, Methoden und Programmiersprachen einzuarbeiten und diese erfolgreich",
+        "einzusetzen. Ich verfüge ausserdem über einen EMBA Abschluss, der es mir ermöglicht auch in nicht",
+        "technischen Bereichen wie Businessanalyse und Projektmanagement als kompetenter Ansprechpartner",
+        "aufzutreten."
+      ],
+      "p2": [
+        "Dank langjähriger Erfahrung mit diversen Softwarearchitekturen und -Technologien kann ich",
+        "mich sowohl in bestehenden als auch neuen Projekten schnell zurechtfinden und solide und zuverlässige",
+        "Lösungen für die gegebenen Anforderungen implementieren. Neben der Mitarbeit in Neuentwicklungen verfüge",
+        "ich auch über Praxiserfahrung mit Erweiterungen oder der Ablösung komplexer bestehender Applikationen",
+        "inklusive Datenmigration."
+
+      ],
+      "p3": [
+        "Ich habe sowohl in unterschiedlichen Rollen in verschiedenen Branchen als auch in Projekten mit",
+        "unterschiedlicher Komplexität und Organisation gearbeitet: vom Ein-Mann-Projekt über die Mitarbeit",
+        "in einem international verteilten Team bis zum Teamleiter in einem Grossprojekt mit mehreren parallel",
+        "arbeitenden Teams."
       ]
     },
     "notwork": {
@@ -53,6 +70,12 @@
     "roles": "Rollen",
     "databases": "Datenbanken",
     "architect": "Architekt",
+    "developer": "Entwickler",
+    "requirementsengineer": "Requirementsengineer",
+    "businessanalyst": "Businessanalyst",
+    "teamlead": "Teamleiter",
+    "teamplayer": "Teamplayer",
+    "projectmanager": "Projektmanager",
     "exp": {
       "2yrs": "2 Jahre",
       "5yrs": "5 Jahre",
@@ -117,7 +140,7 @@
       "abdn": {
         "place": "Schottland, UK",
         "title": "Austauschsemester",
-        "grade": "Durchschnittnote 19 von 20"
+        "grade": "Durchschnittsnote 19 von 20"
       },
       "eth": {
         "place": "Zürich, Schweiz",
@@ -162,70 +185,100 @@
     "description": "Beschreibung",
     "qv": {
       "title": "Visualisierung geplanter astronomischer Beobachtungen",
+      "role": "Architekt, Entwickler, Analyst",
       "p0": [
-        "Das Gemini Observatorium verfügt über zwei Teleskope in Hawai'i und Chile, die mit ihren 8 Meter grossen Primärspiegeln",
-        "zu den grössten der Welt gehören. Da generell wesentlich mehr Beobachtungszeit ",
-        "angefragt wird als zur Verfügung steht, und der Betrieb solcher Sternwarten ausserdem teuer ist, ",
+        "Das Gemini Observatorium verfügt über zwei Teleskope in Hawai'i und Chile, die mit ihren 8 Meter grossen",
+        "Primärspiegeln zu den grössten der Welt gehören. Da generell wesentlich mehr Beobachtungszeit ",
+        "angefragt wird als zur Verfügung steht und der Betrieb solcher Sternwarten teuer ist, ",
         "wird viel Aufwand in eine gute Planung der zur Ausführung ausgewählten Beobachtungen gesteckt."
       ],
       "p1": [
-        "Der optimale Ausführungszeitpunkt für Beobachtungen ist ",
-        "abhängig von einer Vielzahl von Parametern wie z.B. die Sichtbarkeit und die Höhe über Horizont des",
-        "Objekts (abhängig von Jahres- und Tageszeit), Wetterverhältnisse, genauer Zeitpunkt, Mondphase, Verfügbarkeit",
-        "von Instrumenten und Instrumentkonfigurationen und vieles mehr."
+        "Der optimale Ausführungszeitpunkt für Beobachtungen ist abhängig von einer Vielzahl von Parametern wie",
+        "z.B. der Sichtbarkeit bzw. Höhe über Horizont des Objekts (abhängig von Jahres- und Tageszeit),",
+        "den Wetterbedingungen, Mondphase, Verfügbarkeit von Instrumenten und Instrumentkonfigurationen."
         ],
       "p2": [
-        "Gemini's Queue Visualization Tool (QV) unterstützt das Planungsteam in der lang- und mittelfristigen ",
-        "Planung von optimalen Beobachtungszeitpunkten. Es stellt eine Vielzahl von Filteroperationen zur ",
-        "Verfügung, die es erlauben, von bestimmten Parametern abhängige Beobachtungen auszuwählen, diese zu ",
-        "sortieren und wesentliche Parameter wie z.B. die Sichtbarkeit und Höhe über Horizont, welche von der ",
-        "Jahres- und Tageszeit abhängig sind, graphisch darzustellen."
+        "Gemini's Queue Visualization Tool (QV) unterstützt das Planungsteam in der lang- und mittelfristigen",
+        "Planung von optimalen Zeitfenstern für die in einem Semster zur Ausführung ausgewählten Beobachtungen.",
+        "QV stellt eine Vielzahl von Filteroperationen zur Verfügung, die es erlauben, von bestimmten Parametern",
+        "abhängige Beobachtungen auszuwählen und zu sortieren. Beobachtungen können nach konfigurierbaren Kriterien",
+        "gruppiert und in Tabellen oder Histogrammen angezeigt werden, was eine schnelle quantitative Analyse der",
+        "Daten erlaubt. Für alle Beobachtungen wird die im laufenden Semester noch verfügbare Beobachtungszeit",
+        "berechnet, was es erlaubt, Beobachtungen entsprechend zu priorisieren. Wesentliche Parameter wie z.B.",
+        "die Höhe über Horizont oder die von der Position des Mondes abhängige Hintergrundhelligkeit können",
+        "graphisch auf einer einstellbaren Zeitachse dargestellt werden."
         ],
       "p3": [
-        "Zusätzlich zu den Abfrage-, Filter- und Sortierfunktionen erlaubt QV auch das Aktivieren und Deaktivieren",
-        "weiterer Einschränkungen wie z.B. die Verfügbarkeit von Instrumenten und Instrumentkonfigurationen, die",
-        "minimal einzuhaltende Höhe über Horizont oder die Mondhelligkeit, was 'was-wäre-wenn' Analysen erlaubt",
+        "Zusätzlich zu den Filter- und Sortierfunktionen erlaubt QV auch das Aktivieren und Deaktivieren",
+        "weiterer Einschränkungen wie z.B. der Verfügbarkeit von Instrumenten und Instrumentkonfigurationen, der",
+        "minimal einzuhaltenden Höhe über Horizont oder der Mondhelligkeit. Dies erlaubt 'was-wäre-wenn' Analysen",
         "mit denen Rückschlüsse auf allfällig notwendige Änderungen oder Optimierungen der Beobachtungsparameter ",
-        "oder die langfristige Planung von Instrumenten und deren Konfigurationen wie z.B. bestimmten Filtern ",
-        "erlaubt."
+        "oder der langfristigen Planung von Instrumenten und deren Konfigurationen erlaubt. Kalenderbasierte",
+        "Einschränkungen sind in Google-Kalendern erfasst und können somit auch ausserhalb von QV eingesehen",
+        "und bearbeitet werden und stehen so auch anderen Applikationen zur Verfügung."
       ],
       "p4": [
         "Während QV zu Beginn nur für ein paar wenige spezifische Anwendungsfälle gedacht war, gelang es",
-        "in Zusammenarbeit mit den Benutzern eine Lösung zu bauen, die dank ihren umfangreichen Abfragefunktionen",
-        "auf den Beobachtungsdaten heute auch für andere Einsatzzwecke verwendet wird."
-      ]
+        "in enger Zusammenarbeit mit den Benutzern eine Lösung zu bauen, die dank ihrem Funktionsumfang",
+        "heute auch für andere Einsatzzwecke verwendet wird."
+      ],
+      "screen0caption": ["Histogrammsicht mit Beobachtungen gruppiert nach diversen Eigenschaften."],
+      "screen1caption": ["Tabellensicht mit Beobachtungen gruppiert nach diversen Eigenschaften."],
+      "screen2caption": ["Sämtliche Gruppierungen für Histogramme and Tabllen sind konfigurierbar."],
+      "screen3caption": ["QV unterstützt zahlreichen Filteroptionen (links)."],
+      "screen4caption": ["Anzeige der Sichtbarkeit von Beobachtungen auf einer Zeitachse."],
+      "screen5caption": ["Zeitachse ist einstellbar von einem Tag bis zu einem Jahr."],
+      "screen6caption": ["Anzeige der benötigten Konfigurationen für ein Instrument auf der Zeitachse."],
+      "screen7caption": ["Mittlere Höhe über Horizont eines Beobachtungsziels über mehrere Monate inkl. Mondphasen."],
+      "screen8caption": ["Höhe über Horziont eines Beobachtungsziels und des Monds während einer Nacht."]
     },
     "ltts": {
       "title": "Freigabeverwaltung für den Einsatz von starken Lasern in der Astronomie",
+      "role": "Projektmanager, Architekt, Entwickler, Analyst",
       "p0Html": [
-        "Sternwarten verwenden häufig starke Laser um <a href='https://de.wikipedia.org/wiki/K%C3%BCnstlicher_Leitstern' target='_blank'>künstliche Leisterne</a> (d.h. Lichtpunkte) in hohen Schichten ",
-        "der Atmosphäre zu erzeugen. Diese werden als Referenzpunkte für die <a href='https://de.wikipedia.org/wiki/Adaptive_Optik'>Adaptive Optiken</a>",
-        " genutzt, die es ermöglichen, Turbulenzen in der Luft auszugleichen.",
-        "Da, wenn auch sehr unwahrscheinlich, Satelliten durch diese Laser beeinträchtigt werden könnten, muss der Gebrauch ",
-        " durch das US Militär ",
-        "für jede Position am Himmel und für die Dauer des Lasereinsatzes vorgängig freigegeben werden."],
+        "Sternwarten verwenden häufig starke Laser, um",
+        "<a href='https://de.wikipedia.org/wiki/K%C3%BCnstlicher_Leitstern' target='_blank'>künstliche Leitsterne</a>",
+        "(d.h. Lichtpunkte) in hohen Schichten der Atmosphäre zu erzeugen. Diese werden als Referenzpunkte für",
+        "<a href='https://de.wikipedia.org/wiki/Adaptive_Optik'>Adaptive Optiken</a>",
+        "genutzt, die es ermöglichen, Luftturbulenzen auszugleichen. Wenn auch sehr unwahrscheinlich besteht",
+        "dabei die Gefahr, dass Satelliten durch diese Laser in ihrer Funktion beeinträchtigt werden. Deshalb ",
+        "müssen solche Lasereinsätze vorgängig durch das US Militär freigegeben werden."
+        ],
       "p1": [
         "Ziel des Projekts war es, einen arbeitsaufwändigen manuellen Prozess für die Erstellung einer Liste",
-        "mit allen potenziellen Laserzielen und deren Zeitfenster durch einen automatisierten Prozess zu ",
-        "ersetzen und ausserdem während der Nacht bessere Informationen zur Verfügung zu stellen.",
-        "Der neue Prozess sammelt automatisch alle potenziellen Beobachtungen für alle Nächte in denen der Laser",
-        "zum Einsatz kommen wird an Hand von Faktoren wie z.B. deren Sichtbarkeit während der Nacht und stellt",
-        "dann eine Liste mit diesen Positionen zusammen, die auf eine spezielle Webseite des Militärs hochgeladen",
-        "wird. Diese Liste wird verarbeitet und das Resultat - eine Liste mit sekundengenauen Zeitfenstern für alle Beobachtungspositionen -",
-        "zur Verfügugn steht, wird automatisch von der Seite heruntergeladen und verarbeitet."],
+        "mit allen potenziellen Laserzielen und deren Verarbeitung durch das Militär durch einen automatisierten",
+        "Prozess zu ersetzen. Zusätzlich sollten während Nächten mit Laserbetrieb den Operateuren Informationen",
+        "zu den Freigabefenstern des aktuellen Beobachtungsziels in Echtzeit und in einfach verständlicher Form",
+        "zur Verfügung gestellt werden."
+        ],
       "p2": [
-        "Um sicherzustellen, dass die freigegebenen Zeitfenster genau eingehalten werden, vergleicht die Software",
-        "ständig die Position des Lasers am Himmel mit diesen Zeitfenstern. Ist der Laser am Ende eines Zeitfensters noch aktiv,",
+        "Der neue Prozess erstellt automatisch eine Liste aller potenziellen Beobachtungsziele für alle Nächte in",
+        "denen der Laser zum Einsatz kommen wird und hinterlegt diese auf einer speziellen Webseite des Militärs.",
+        "Dabei wird insbesondere die Sichtbarkeit (Höhe über Horizont) der Ziele in Abhängigkeit des Datums",
+        "berücksichtigt. Nach der Verarbeitung dieser Liste wird automatisch das Resultat - eine Liste mit",
+        "sekundengenauen Zeitfenstern für alle Beobachtungspositionen - von derselben Seite heruntergeladen,",
+        "verarbeitet und in einer Datenbank abgelegt. Um sicherzustellen, dass die freigegebenen Zeitfenster",
+        "genau eingehalten werden, vergleicht die Software ständig die Position des Lasers am Himmel mit diesen",
+        "Zeitfenstern. Ist der Laser ausserhalb der freigegebenen Positionen und Zeitfenster aktiv,",
         "wird er automatisch abgeschaltet."],
       "p3": [
-        "Ein Webclient zeigt ständig die für die aktuelle Position gültigen Zeitfenster und gibt",
-        "akustische und optische Warnhinweise über die noch verfügbare Beobachtungszeit. Zusätzlich werden auch",
-        "noch weitere Warnungen wie z.B. das Erreichen der Mindesthöhe über Horizont gegeben."]
+        "Zur Unterstützung der Operateure während der Nacht zeigt ein Webclient ständig die für die aktuelle",
+        "Position gültigen Zeitfenster und gibt akustische und optische Warnhinweise über die noch verfügbare",
+        "Beobachtungszeit. Zusätzlich werden auch noch weitere Warnungen wie z.B. beim Unterschreiten der",
+        "Mindesthöhe über Horizont gegeben."
+      ],
+      "screen0caption": ["Übersichtsseite für Lasernächte und Freigabefenster für geplante Beobachtungsziele."],
+      "screen1caption": ["Detailansicht der Freigabe für ein bestimmtes Ziel."],
+      "screen2caption": ["Umfangreiche Konfigurationsoptionen, z.B. Templates für automatisch erzeugte Emails."],
+      "screen3caption": ["Übersichtsseite mit den wesentlichen Informationen für den Betrieb."],
+      "screen4caption": ["Visuelle und akustische Warnungen bevor ein Freigabefenster endet."],
+      "screen5caption": ["Das System blockiert den laser automatisch falls nötig."],
+      "screen6caption": ["Laser wurde vom System blockiert."]
     },
     "nets": {
       "title": "Netzweites Trassen-System NeTS für die SBB",
       "customerHtml": "<a href='http://www.sbb.ch/sbb-konzern.html' target='_blank'>Schweizerische Bundesbahnen SBB</a>",
-      "role": "Teamleiter Business Layer, Entwickler",
+      "role": "Teamleiter Businesslayer, Entwickler",
       "p0Html": [
         "Die Schweizerischen Bundesbahnen (SBB) betreiben eines der dichtesten Eisenbahnnetze der Welt.",
         "Während zwei Jahren war ein Team von rund 25 Entwicklern und UI Experten der SBB und mehrerer externer ",
@@ -236,7 +289,7 @@
         "<a href='https://www.oracle.com/database/index.html' target='_blank'>Oracle Datenbank</a>."
       ],
       "p1": [
-        "Innerhalb des Projekts war ich als fachlicher Teamleiter verantwortlich für das Business Layer Team mit 5 Personen",
+        "Innerhalb des Projekts war ich als fachlicher Teamleiter verantwortlich für den Businesslayer mit 5 Personen",
         "und sowohl aktiv im Entwicklungsprozess als auch in Planungs- und Architekturentscheidungen involviert.",
         "Aufgabe unseres Teams war, Services zu bauen, die z.B. detaillierte Informationen über verfügbares Rollmaterial",
         "und geplante Zugskompositionen oder detaillierte Informationen zum Bahnnetz bis hinunter zu Signalanlagen dem Client",

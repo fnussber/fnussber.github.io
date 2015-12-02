@@ -15,11 +15,22 @@
     "multi": {
       "title": "Multifunctional",
       "p0": [
-        "I am a pragmatic generalist who loves to interact with other developers, customers and users. ",
-        "I think agile development processes are almost always a good choice and I have had good experiences ",
-        "with Scrum in the past."
+        "I am a pragmatic generalist who pays attention to details while also looking at the big picture. I love to",
+        "interact with other developers, customers and users. I think agile development processes are almost always",
+        "a good choice and I have had good experiences with Scrum in the past."
       ],
       "p1": [
+        "My MSc in computer science, continuing education and an interest in new technologies provide a good",
+        "foundation to stay on top of new technical developments, adopt new best practices continuously and learn",
+        "and utilize new technologies, methods and programming languages."
+      ],
+      "p2": [
+        "Many years of experience with a variety of software architectures and technologies allow me to quickly",
+        "find my way in new as well as existing projects and to implement reliable solutions for the given requirements.",
+        "My experience includes not only green field projects but also covers refactorings, extensions and replacements",
+        "of complex existing systems including data migrations."
+      ],
+      "p3": [
         "I have been working in different roles in several industries in projects of varying ",
         "complexity and organisational setups: from one-man projects to projects with several teams working in parallel, to ",
         "internationally distributed project teams."
@@ -52,6 +63,12 @@
     "roles": "Roles",
     "databases": "Databases",
     "architect": "Architect",
+    "developer": "Developer",
+    "requirementsengineer": "Requirements Engineer",
+    "businessanalyst": "Business Analyst",
+    "teamlead": "Team Lead",
+    "teamplayer": "Team Player",
+    "projectmanager": "Project Manager",
     "exp": {
       "2yrs": "2 years",
       "5yrs": "5 years",
@@ -154,15 +171,16 @@
       "Clicking on a project title will display more details. Also check out some of my private projects that",
       "are available on GitHub "
     ],
-    "employer":   "Employer",
-    "customer":   "Customer",
-    "role":   "Role",
-    "year":   "Year",
-    "years":  "Years",
+    "employer": "Employer",
+    "customer": "Customer",
+    "role": "Role",
+    "year": "Year",
+    "years": "Years",
     "technologies": "Technologies",
     "description": "Description",
     "qv": {
       "title": "Astronomical Observations Queue Visualization",
+      "role": "Architect, Developer, Analyst",
       "p0": [
         "The Gemini Observatory's two 8.1-meter telescopes located in Hawai'i and Chile are amongst",
         "the most powerful telescopes for research in astronomy in the world. Observation time is in",
@@ -190,10 +208,38 @@
         "While originally planned for a handful of specific use cases, the final application turned out to be",
         "flexible enough to cover a wide variety of useful 'query' operations on the database and is now used in",
         "contexts outside of mid- and long-term queue planning, too."
+      ],
+      "screen0caption": [
+        "Show observations grouped by properties in histograms."
+      ],
+      "screen1caption": [
+        "Show observations grouped by properties in tables."
+      ],
+      "screen2caption": [
+        "Grouping for histograms, tables and color coding is user configurable."
+      ],
+      "screen3caption": [
+        "QV supports large variety of filter options (left side)."
+      ],
+      "screen4caption": [
+        "Visibility of observations on a time line."
+      ],
+      "screen5caption": [
+        "Time line can be 1 day to 1 year."
+      ],
+      "screen6caption": [
+        "Visualization of required instrument configurations over time."
+      ],
+      "screen7caption": [
+        "Compare elevation of observation targets and Moon phases."
+      ],
+      "screen8caption": [
+        "Elevation of observation target during a single night with sky brightness."
       ]
     },
     "ltts": {
       "title": "Clearance Support for High Powered Laser Usage in Astronomy",
+      "role": "Project Manager, Architect, Developer, Analyst",
       "p0Html": [
         "Astronomical observatories often use high powered lasers to project artificial 'guide stars' (i.e.",
         "points of light) on high atmospheric layers. These are used as a reference in",
@@ -214,10 +260,33 @@
       "p2": [
         "To make sure these clearance windows are adhered to, the application is constantly monitoring the ",
         "current telescope pointing position and comparing it with those windows. If it detects that the laser ",
-        "is used outside a window that has been cleared by the military the laser is automatically shuttered."],
+        "is used outside a window that has been cleared by the military the laser is automatically shuttered."
+      ],
       "p3": [
         "A web frontend allows to see the current state of the system and gives visual and audible clues when ",
-        "during long observations a closure window is approaching and the laser needs to be shuttered."]
+        "during long observations a closure window is approaching and the laser needs to be shuttered."
+      ],
+      "screen0caption": [
+        "Overview page for all laser nights, their targets and clearance windows."
+      ],
+      "screen1caption": [
+        "Detailed clearance windows for one observation."
+      ],
+      "screen2caption": [
+        "Many configuration options, e.g. templates for emails created by system."
+      ],
+      "screen3caption": [
+        "Alarm page used by operators during laser nights."
+      ],
+      "screen4caption": [
+        "Visual and audible warnings are given when laser needs to go off sky."
+      ],
+      "screen5caption": [
+        "System will automatically shutter laser if needed."
+      ],
+      "screen6caption": [
+        "Laser is shuttered."
+      ]
     },
     "nets": {
       "title": "Network-wide Track Management System for Swiss Federal Railways",
@@ -229,7 +298,8 @@
         "of 25 developers and UI specialists from SBB and external companies was tasked during two years with a ",
         "complete rewrite based on an <a href='https://wiki.eclipse.org/index.php/Rich_Client_Platform' target='_blank'>Eclipse RCP</a> ",
         "client and a server based on <a href='http://www.ibm.com/software/websphere' target='_blank'>WebSphere</a> and an",
-         "<a href='https://www.oracle.com/database/index.html' target='_blank'>Oracle database</a>."],
+        "<a href='https://www.oracle.com/database/index.html' target='_blank'>Oracle database</a>."
+      ],
       "p1": [
         "I was responsible to orchestrate the development effort of the 5 head strong Business Layer Team and also ",
         "actively involved in the development, planning decisions and some architectural decisions. Main focus of ",
@@ -237,17 +307,20 @@
         "and train compositions or railway network information including detailed track information down to traffic ",
         "lights and signalisation. Other aspects covered by those services are the daily train schedules, ",
         "journey time calculations based on actual train parameters like engines and weight and checks which can ",
-        "be used to validate if planned schedules are feasible."],
+        "be used to validate if planned schedules are feasible."
+      ],
       "p2": [
         "After an earlier attempt to replace the existing software had failed because of the complexity of this ",
         "project, SBB wanted to try an agile development process. Great care was also taken to involve a group ",
         "of end users in the development process. This continuous user feedback on the current state of the ",
         "software proved invaluable to verify the requirements and to detect and address usability and performance ",
-        "issues at an early stage."],
+        "issues at an early stage."
+      ],
       "p3Html": [
         "For more information also see ",
         "<a href='http://www.netcetera.com/en/dms/documents/case-studies-and-factsheets/brochure-nets-en/brochure-nets-en-20110418-low-resolution.pdf' target='_blank'>a product prospectus</a> ",
-        "on the web page of another external company that was involved in the project."]
+        "on the web page of another external company that was involved in the project."
+      ]
     },
     "alarm": {
       "title": "iOS Radio Alarm Clock",
